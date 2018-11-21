@@ -59,6 +59,18 @@ html {
   text-decoration: none;
 }
 
+nav a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid #fff;
+  outline-offset: 0;
+}
+
 .masthead a:hover {
   background-color: rgba(180, 220, 255, .3);
 }
